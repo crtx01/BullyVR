@@ -1,31 +1,43 @@
-# Bully VR — Pre-alpha 0.0.1
+# Bully VR — Recovery pre-alpha r20
 
-Unofficial VR adaptation of Bully: Scholarship Edition for standalone Quest, by **David Peretta / crtx01**.
+**Bully VR for Quest — development update**
 
-## Exploration-only pre-release
+Aiming and weapon alignment have been improved, along with draw distance/culling, jumping with B, screen distance, VR menu readability and cheat handling. The updated Recovery test APK defaults to English, with Portuguese available in VR settings.
 
-**Most mechanics are still being tested or developed. This is not a finished VR game or a playable campaign release. All missions and classes are disabled in the Test APK, including the first mission.**
+**Controls**
 
-Explore the school and try VR movement, turning, item switching, equipment, school teleport destinations and VR settings. Implemented features are not fully validated.
+- Left stick: move. Right stick: turn.
+- A: run/confirm. B: jump/back. X: contextual action. Y: pause.
+- Left trigger (L2): focus/interact, including with a weapon equipped. Right trigger: punch or use the equipped weapon.
+- Side grips: cycle owned equipment. Hold the right grip for about 1 second to return to fists.
+- L3 (click left stick): VR menu/settings. R3 (click right stick): controls panel. X+Y: control guide.
+- VR settings: adjust camera height, turning and language. Recenter restores camera height to 1.60 m.
+- Weapons menu: select owned equipment or request the weapon grant. Cheats menu: individual options and Disable cheats.
 
-## Installation
+**What you can do:** explore, move and turn in VR, use tracked hands, fight, switch equipment and adjust VR settings. Recovery includes mission/class content, but a complete campaign playthrough has not been validated.
 
-Download BullyVR-Test.apk from this repository’s Releases and sideload it onto your Quest. Supply your own **US Wii Bully: Scholarship Edition (RB7E54)** game image; no game disc is included. Other regions and revisions are untested. Put the image in a Bully VR folder, open the app under Unknown Sources, grant folder access when prompted and launch the game. The demo automatically loads an exploration starting point.
+The latest r20 patch restores the native L2 interaction channel with weapons equipped while keeping the existing VR aiming code. This last change has not been tested on the headset.
 
-## Controls
+**Still unfinished:** some weapons/throws and interactions, mirrors, vehicles, Jimmy’s cutscene model, HUD placement and long-session stability. Culling is improved; some pop-in may remain. The wristwatch follows game time, which missions can pause.
 
-Left stick: move. Right stick: turn. A: run/confirm. B: jump/back. X: contextual action. Y: native pause. LT unarmed: focus/grab. RT: native punch combo or ranged aim/use; some weapons and throws remain unfinished. Side grips: cycle owned equipment. Both grips: native skateboard equip command (full riding behavior not validated). R3: exploration menu and VR settings. X+Y: control guide.
+**Download and setup:** https://github.com/crtx01/BullyVR/releases
 
-English and Portuguese are available in the new VR panels through VR settings / language. This does not translate the original campaign or every legacy Dolphin page.
+Sideload **BullyVR-Recovery-Test-r20.apk**, put your own US Wii copy of Bully: Scholarship Edition (RB7E54) in a Bully VR folder, launch from Unknown Sources and grant folder access. No game image is included. Other regions/revisions are untested. The older exploration-only demo has separate mission/class restrictions; use the release notes for the APK you download.
 
-## Known limitations
+Unofficial, free fan project, unaffiliated with Rockstar Games or Take-Two. Please report your Quest model, build and steps to reproduce any issue.
 
-Weapon/throwable trajectories and animations, item alignment, contextual actions, vehicles, NPC physical reactions, culling/streaming, sky/edge artifacts, HUD/menu placement and long-session comfort remain in testing or development. Initial resource loading can cause pauses. Campaign, classes, cutscenes and the combat tutorial have not passed an end-to-end VR playthrough.
+crtx01 - David Peretta - Brasil
 
-Development screenshots may show external locations; **these are not included in the school-only Test demo**. Promotional images have AI-assisted sky/edge retouching and captions and are not untouched gameplay evidence. Original captures are supplied for comparison. Retouching does not mean these artifacts have been fixed in the APK.
+## Build and legacy demo
 
-## Suggestions and tester sign-ups
+Recovery+ installs separately from the original Recovery. The old BullyVR-Demo.apk is a legacy exploration-only demo; use **BullyVR-Recovery-Test-r20.apk** for the current update. Recovery is based on APK patches and an embedded runtime, not a source rebuild. Existing saved language preferences are preserved.
 
-I welcome suggestions and am putting together a beta-tester list for upcoming builds. The current build is still pre-alpha. Email **davidperetta12@gmail.com**, subject **Bully VR Tester**, with your Quest model and testing interests. Comfort, control feedback and reproducible bug reports are especially helpful.
+APK SHA-256: `91E01CCE3885E5E96608DDE5C9CCED0AA3FC3A505053FFCD79A88F62172E8342`.
 
-Unofficial fan project; not affiliated with Rockstar Games or Take-Two. Original game rights belong to their respective owners.
+## Screenshots and tester feedback
+
+Older promotional images had AI-assisted sky/edge retouching and captions; they are not untouched gameplay evidence or proof of fixes. Initial loading may pause, and campaign, classes, cutscenes and the combat tutorial have not passed an end-to-end VR playthrough.
+
+Suggestions and tester sign-ups: email **davidperetta12@gmail.com**, subject **Bully VR Tester**, with your Quest model and testing interests.
+
+Derived from the [Dolphin emulator](https://github.com/dolphin-emu/dolphin). Original game rights belong to their respective owners.
