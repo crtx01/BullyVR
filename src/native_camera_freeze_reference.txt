@@ -1,0 +1,29 @@
+// Use the game's own CameraFreeze storage, initialized exactly like 0x8014efe8.
+// The frozen orientation is stable; its translation follows Jimmy. OpenXR owns
+// all viewing rotation, so neither native auto-orbit nor a compensator can feed back.
+static bool freezeNativeCamera(bool enabled){
+ constexpr uint32_t camera=0x806247b0,freeze=camera+0x1b0;
+ static bool owned=false;static uint32_t oldFlag=0,rwPrevious=0;
+ static std::array<uint32_t,16> saved{};static V cameraOffset{};
+ uint32_t rw=gameRead(camera+0x80),player=gameRead(0x80624204);
+ auto release=[&]{if(owned){gameWrite(freeze,oldFlag);for(int i=0;i<16;i++)gameWrite(freeze+0x30+i*4,saved[i]);owned=false;LOG("Native camera released");}};
+ if(!enabled||!gameAddress(rw)||!gameAddress(player)){release();return false;}
+ if(owned&&rw!=rwPrevious)release();
+ uint32_t transform=gameRead(player+0x18),position=gameAddress(transform)?transform+0x30:player+4;
+ V root{gameFloat(position),gameFloat(position+4),gameFloat(position+8)};
+ if(!std::isfinite(root.x)||!std::isfinite(root.y)||!std::isfinite(root.z))return owned;
+ if(!owned){
+  uint32_t frame=gameRead(rw+0xac);if(!gameAddress(frame))return false;
+  oldFlag=gameRead(freeze);for(int i=0;i<16;i++)saved[i]=gameRead(freeze+0x30+i*4);
+  for(int i=0;i<16;i++)gameWrite(freeze+0x30+i*4,gameRead(frame+0x20+i*4));
+  V right=norm(V{gameFloat(frame+0x20),gameFloat(frame+0x24),0});
+  if(length(right)<.9f)return false;
+  V up{0,0,1},forward=cross(right,up);V columns[]={right,up,forward};
+  for(int i=0;i<3;i++)for(int j=0;j<3;j++){float c=j==0?columns[i].x:j==1?columns[i].y:columns[i].z;gameFloatWrite(freeze+0x30+i*16+j*4,c);}
+  cameraOffset={gameFloat(frame+0x50)-root.x,gameFloat(frame+0x54)-root.y,gameFloat(frame+0x58)-root.z};
+  for(uint32_t off:{4u,8u,12u,20u,24u,28u})gameWrite(freeze+off,0);
+  rwPrevious=rw;owned=true;LOG("Native camera rotation frozen; VR is the sole look controller");
+ }
+ V pos=root+cameraOffset;gameFloatWrite(freeze+0x60,pos.x);gameFloatWrite(freeze+0x64,pos.y);gameFloatWrite(freeze+0x68,pos.z);
+ gameWrite(freeze,(oldFlag&0x00ffffffu)|0x01000000u);return true;
+}

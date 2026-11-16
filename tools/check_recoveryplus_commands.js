@@ -1,0 +1,15 @@
+const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const vm = require('node:vm');
+const context = vm.createContext({});
+vm.runInContext(fs.readFileSync('src/recoveryplus/commands.js', 'utf8'), context);
+const stale = {sequence: 100, loadState: 'old-mission.sav', startMission: 8};
+const gate = context.createRecoveryPlusCommandGate(stale);
+assert.equal(gate.accept(stale), false, 'startup must not replay old mission/checkpoint');
+assert.equal(gate.accept({height: 1.6}), false);
+assert.equal(gate.accept({sequence: 101, loadState: 'new.sav'}), true);
+assert.equal(gate.accept({sequence: 101}), false, 'poll must not repeat an action');
+assert.equal(gate.accept({sequence: 102, travel: 2}), true);
+assert.equal(context.createRecoveryPlusCommandGate({sequence: 102}).accept({sequence: 102}), false);
+assert.equal(context.createRecoveryPlusCommandGate(null).accept({sequence: 1}), true);
+console.log('Passed: no stale startup action; fresh command once; restart; no-sequence preferences');

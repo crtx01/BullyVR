@@ -1,0 +1,4790 @@
+{
+  "7b6eee76370690d4": {
+    "name": "AlgieJac",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "adc1131f244b9504": {
+    "name": "AlgieJac",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "591de38dbe3a920e": {
+    "name": "Analog_L",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "89be6edfcf4563ba": {
+    "name": "Analog_R3",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2c662966114d61f0": {
+    "name": "Analog_L3",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "cd2ef7eab9781796": {
+    "name": "Analog_R",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "bdf7dc36ed318304": {
+    "name": "Analog_R3",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "b6a87357b6632bf6": {
+    "name": "Apple",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d93ed19488630c9f": {
+    "name": "Apple",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8b52e37a308df8ac": {
+    "name": "Bar_health_danger",
+    "plane": 0,
+    "size": [
+      128,
+      8
+    ],
+    "format": 14
+  },
+  "c55f0e1f45e9f58f": {
+    "name": "Bar_other_full",
+    "plane": 1,
+    "size": [
+      128,
+      8
+    ],
+    "format": 14
+  },
+  "e849e442edfa4cf5": {
+    "name": "Bar_health_full",
+    "plane": 0,
+    "size": [
+      128,
+      8
+    ],
+    "format": 14
+  },
+  "054ae604996a8a67": {
+    "name": "Bar_iconhealth",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "10a625f270dea4bf": {
+    "name": "Bar_iconhealth",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "7859a75f6b056c8a": {
+    "name": "Bar_other_full",
+    "plane": 0,
+    "size": [
+      128,
+      8
+    ],
+    "format": 14
+  },
+  "225f3ba360e7fc8a": {
+    "name": "Bar_outline",
+    "plane": 1,
+    "size": [
+      128,
+      8
+    ],
+    "format": 14
+  },
+  "8c86a21231d2ce7a": {
+    "name": "BlipDown",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "f5512fd61754ddac": {
+    "name": "BlipDown",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "388c17b02b7ff10f": {
+    "name": "BlipUp",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "555e3f8bb2bf2ecd": {
+    "name": "BlipUp",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "5760b8c6aba8e857": {
+    "name": "Button_L1",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "cce9c4b14ffc8119": {
+    "name": "Button_R2",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "1c81e4b8eae0155f": {
+    "name": "Button_L2",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ea41879214f72f19": {
+    "name": "Button_R1",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f327d37162848c4b": {
+    "name": "Button_R2",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9e39922f0fc216ce": {
+    "name": "Button_Select",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "86c7eb897ad3c123": {
+    "name": "Button_Select",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "632debd5426e984c": {
+    "name": "Button_arrowD",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0350adeb04ca3343": {
+    "name": "Button_arrowD",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "99e83769935abbec": {
+    "name": "Button_arrowL",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "04a1cb627ec27cbe": {
+    "name": "Button_arrowL",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "cafeffac18c5cf99": {
+    "name": "Button_arrowR",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "bc3e75791c11bf77": {
+    "name": "Button_arrowR",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "004ae3ceee909cb9": {
+    "name": "Button_arrowU",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "492e02ca672d7d6c": {
+    "name": "Button_arrowU",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e7b9a438ee2d60ab": {
+    "name": "Button_start",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "5ab9098b33157046": {
+    "name": "Button_start",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "3892361c3dbd8b14": {
+    "name": "CAM_center",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "6fd4409de5c63041": {
+    "name": "CAM_center",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "7ece25cf0224d037": {
+    "name": "CAM_zoom_box",
+    "plane": 0,
+    "size": [
+      32,
+      16
+    ],
+    "format": 14
+  },
+  "04ee443630f36cb0": {
+    "name": "CAM_zoom_box_on",
+    "plane": 1,
+    "size": [
+      32,
+      16
+    ],
+    "format": 14
+  },
+  "e1b1f5c71f568f3d": {
+    "name": "CAM_zoom_box_on",
+    "plane": 0,
+    "size": [
+      32,
+      16
+    ],
+    "format": 14
+  },
+  "bb4c9a99eedb90b5": {
+    "name": "CAM_zoom_in",
+    "plane": 0,
+    "size": [
+      64,
+      32
+    ],
+    "format": 14
+  },
+  "f8bb28f8ec16e332": {
+    "name": "CAM_zoom_in",
+    "plane": 1,
+    "size": [
+      64,
+      32
+    ],
+    "format": 14
+  },
+  "4c3bf32284d82570": {
+    "name": "CAM_zoom_out",
+    "plane": 0,
+    "size": [
+      64,
+      32
+    ],
+    "format": 14
+  },
+  "d7aabacc879f3738": {
+    "name": "CAM_zoom_out",
+    "plane": 1,
+    "size": [
+      64,
+      32
+    ],
+    "format": 14
+  },
+  "f31df448bb96f9e2": {
+    "name": "HUD_winmid",
+    "plane": 0,
+    "size": [
+      8,
+      8
+    ],
+    "format": 14
+  },
+  "76da960ed3f93a46": {
+    "name": "CarnTicket",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "60b459f176e51bff": {
+    "name": "CarnTicket",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "46859aa2825d1a9c": {
+    "name": "Clothing_pickup",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "89ef2e9d08698a31": {
+    "name": "Clothing_pickup",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "2aa9f7a1b3681ebe": {
+    "name": "Crab",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "4910a5a856e556a9": {
+    "name": "Crab",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "43a1edc9b8930cb4": {
+    "name": "Dossier",
+    "plane": 1,
+    "size": [
+      8,
+      8
+    ],
+    "format": 14
+  },
+  "7dcd48fdff189d68": {
+    "name": "DrugBttl",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "fcb5d66335609828": {
+    "name": "DrugBttl",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "bebca15cece0c372": {
+    "name": "Grade_check",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "f962a555fb226f67": {
+    "name": "Grade_check",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "dcb2ac7046d9ef7e": {
+    "name": "Grade_cross",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "521b0f3e2c8abd59": {
+    "name": "Grade_cross",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "4b3621347ad94bde": {
+    "name": "HUDIconBG",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "ae47084bd5e9a292": {
+    "name": "HUDIconBG",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "6560dc3868fc4dae": {
+    "name": "HUDIcon_Beam",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0d8f7828a93da5a9": {
+    "name": "HUDIcon_Beam",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f1b9f02a139bebf7": {
+    "name": "HUDIcon_Newspaper",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "cfffb6d7d4efcb9c": {
+    "name": "HUDIcon_Newspaper",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "c3216e824c39bf5a": {
+    "name": "HUDIcon_SPD",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "e19afe41fdfef6e9": {
+    "name": "HUDIcon_SPD",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "093e9cf80f0816fc": {
+    "name": "HUDIcon_SSLINGSHOT",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "04e0fdd1a8c8b883": {
+    "name": "HUDIcon_SSLINGSHOT",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "3c80173987039941": {
+    "name": "HUDIcon_STINKBOMB",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "9acefae08f09e53d": {
+    "name": "HUDIcon_STINKBOMB",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f5af0354bc76f5c8": {
+    "name": "HUDIcon_Scope",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "d4bd601b456f42ee": {
+    "name": "HUDIcon_Scope",
+    "plane": 1,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "80e8785905c384c5": {
+    "name": "HUDIcon_ammoroc",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e9f13cf3a46d95b3": {
+    "name": "HUDIcon_ammoroc",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e99bb4ba0ba7f19b": {
+    "name": "HUDIcon_ammospud",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2ac320508b5399f0": {
+    "name": "HUDIcon_ammospud",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "65ca04683f39d637": {
+    "name": "HUDIcon_camera",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "debf3d46c4cac631": {
+    "name": "HUDIcon_camera",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "91f9cc81a0dfd00e": {
+    "name": "HUDIcon_digcam",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "3cf14e130895cd99": {
+    "name": "HUDIcon_digcam",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "9c86f06475271e48": {
+    "name": "HUDIcon_fist",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "e8ae52a9611aa96a": {
+    "name": "HUDIcon_fist",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "37cae78c33d90f03": {
+    "name": "HUDIcon_fountain",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "d209f0b7539299a9": {
+    "name": "HUDIcon_fountain",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "79746f82a41909f0": {
+    "name": "HUDIcon_genbook",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e9a7209c2892c516": {
+    "name": "HUDIcon_genbook",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "840f43b10adcee94": {
+    "name": "HUDIcon_itchpowd",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "0605369b7665d415": {
+    "name": "HUDIcon_itchpowd",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "5642bc73a84e3d6d": {
+    "name": "HUDIcon_kickme",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "1dfdfd727f90a7af": {
+    "name": "HUDIcon_kickme",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "93f23848070d7db7": {
+    "name": "HUDIcon_marble",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "76faf46654401d8e": {
+    "name": "HUDIcon_marble",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "8a4c51937fd07abe": {
+    "name": "HUDIcon_photos",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f6e510effc95bc6d": {
+    "name": "HUDIcon_photos",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "b54dc84721e4fb7a": {
+    "name": "HUDIcon_rubball",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "b5cea37bc187f00a": {
+    "name": "HUDIcon_rubball",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "1218aaa1988772d3": {
+    "name": "HUDIcon_skate",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "04fd8d0206f77494": {
+    "name": "HUDIcon_skate",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "40e6203f2b0f45d9": {
+    "name": "HUDIcon_snowoff",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "b4a642356276a30b": {
+    "name": "HUDIcon_snowoff",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "b59f612d805c2b97": {
+    "name": "HUDIcon_spraycan",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "84fe1e3a2b6450ea": {
+    "name": "HUDIcon_spraycan",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "0620db512230132b": {
+    "name": "HUDIcon_teddy",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "d84092e658b8cf0e": {
+    "name": "HUDIcon_teddy",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f2de5a03ee50b59d": {
+    "name": "HUDIcon_ticket",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "04cdddf3d0488481": {
+    "name": "HUDIcon_ticket",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "39a10a6d3ee1ba98": {
+    "name": "HUDIcon_undies",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "1783c9e44da8cc76": {
+    "name": "HUDIcon_undies",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "0a6f8079dcdbba8e": {
+    "name": "HUDIcon_voicechangr",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "86739317553967a6": {
+    "name": "HUDIcon_voicechangr",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "8f441c36bea0c1e0": {
+    "name": "HUDIcon_wballoon",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "a5ccf0c49e9daa69": {
+    "name": "HUDIcon_wballoon",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "5dfa6c129b9ee41d": {
+    "name": "HUD_ArmHour",
+    "plane": 0,
+    "size": [
+      8,
+      128
+    ],
+    "format": 14
+  },
+  "d7d661734d80f2e7": {
+    "name": "HUD_ArmHour",
+    "plane": 1,
+    "size": [
+      8,
+      128
+    ],
+    "format": 14
+  },
+  "344f86c24f0ae5b8": {
+    "name": "HUD_ArmMinute",
+    "plane": 0,
+    "size": [
+      8,
+      128
+    ],
+    "format": 14
+  },
+  "4e4f67089ac96ca5": {
+    "name": "HUD_ArmMinute",
+    "plane": 1,
+    "size": [
+      8,
+      128
+    ],
+    "format": 14
+  },
+  "a6c8052d47cc8c52": {
+    "name": "HUD_Scope_tar",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "54a954cafbb4c90d": {
+    "name": "HUD_Scope_tar",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0f7876da190cb864": {
+    "name": "HUD_buttonCircle",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d5276e8b9ca44183": {
+    "name": "HUD_buttonTriangle",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a8bc7555bb37c316": {
+    "name": "HUD_buttonCross",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f34ef385535718a6": {
+    "name": "HUD_buttonSquare",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c7329f71514e9cec": {
+    "name": "HUD_buttonTriangle",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "74b977689dd879a4": {
+    "name": "target9B",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c7c0a53ebab04236": {
+    "name": "HUD_center_xhair",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8acede0241f9f943": {
+    "name": "HUD_circleoutline",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "627b0982cb30b8e4": {
+    "name": "HUD_circleoutline",
+    "plane": 1,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "07a145729a6efff7": {
+    "name": "HUD_clock",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "da1e824b0c04eb37": {
+    "name": "HUD_clock",
+    "plane": 1,
+    "size": [
+      128,
+      128
+    ],
+    "format": 14
+  },
+  "80ca32fb42cf80f0": {
+    "name": "HUD_xhair",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "936c9e831c73f4d9": {
+    "name": "HUD_xhair",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "eed245a2047b9429": {
+    "name": "HUDicon_brocketL",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "078f4af2673edddd": {
+    "name": "HUDicon_brocketL",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "9128e3abc9d294fb": {
+    "name": "HUDicon_cbomb",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "958619da298db0af": {
+    "name": "HUDicon_cbomb",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "91c0ce8bda401d53": {
+    "name": "HUDicon_egg",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "46fa1051a0aa99fb": {
+    "name": "HUDicon_egg",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "1f612ae5ec221cdb": {
+    "name": "HUDicon_sling",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "3e116a0f0171ce1f": {
+    "name": "HUDicon_sling",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "58bb9e82a1a2edf0": {
+    "name": "Icon_Health",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a8ee955b9530ede4": {
+    "name": "Icon_Health",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "1644034e8f08be12": {
+    "name": "Icon_Punish",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "48d30cca2593cf71": {
+    "name": "Icon_Punish",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "28eadc8ff1bcbe39": {
+    "name": "Infinity",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "63aac4f1cd23e238": {
+    "name": "Infinity",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4acd610ba9984eb4": {
+    "name": "KeyCard",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "a1cbe8bca0c64d52": {
+    "name": "KeyCard",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "26a0f223f8f93405": {
+    "name": "Labnotes",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "33d1f1f55479ace6": {
+    "name": "Labnotes",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "352eb343fde20198": {
+    "name": "MI_Missionact",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "88dc175cc5acd813": {
+    "name": "MI_Missionact",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d514a859927625b3": {
+    "name": "MI_Missionsec",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8f58c7f8ad786fd3": {
+    "name": "MI_Missionsec",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d8f60ff646473dff": {
+    "name": "MI_NextClass",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "16fe3a54d0d706a8": {
+    "name": "MI_NextClass",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "1fe065527c2b873f": {
+    "name": "MI_NextClassdone",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8845b6d39ab264a8": {
+    "name": "MI_NextClassdone",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9f8efc46b0d885a4": {
+    "name": "MI_Vendetta",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "cb3ec2fa6341857f": {
+    "name": "MI_Vendetta",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ca8bbea2af01a6e8": {
+    "name": "MI_barber",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9b22c500fc768ad0": {
+    "name": "MI_barber",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "69cb873dd5db4b25": {
+    "name": "MI_bike",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "dbdb3698c2ce15fa": {
+    "name": "MI_bike",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c5aa3a26d38df908": {
+    "name": "MI_bikerack",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8c0db5afa8c7efa2": {
+    "name": "MI_bikerack",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4961b79e904035c1": {
+    "name": "MI_bikestore",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "24b015c69ce0a331": {
+    "name": "MI_bikestore",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a055e4e923de2f41": {
+    "name": "MI_bus",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a345262291a51f1a": {
+    "name": "MI_bus",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c94dd6381b1ae5fa": {
+    "name": "MI_cloth",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ff7bd9e02dbb5b3b": {
+    "name": "MI_cloth",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e140f9ba996eaa55": {
+    "name": "MI_enemy",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "40ff32c82685419f": {
+    "name": "MI_enemy",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "cc9088b613246330": {
+    "name": "MI_errand",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "345246ebd871829e": {
+    "name": "MI_errand",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4409cc288850854e": {
+    "name": "MI_generalstore",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9f731ccde8328c6c": {
+    "name": "MI_generalstore",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a363ae63f78e33e1": {
+    "name": "MI_hobo",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0e0a7fd15fdc24ec": {
+    "name": "MI_hobo",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "3390dcbaa8357c5a": {
+    "name": "MI_mission",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "59486cdc8dfd5000": {
+    "name": "MI_mission",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "1de803ecfa7411d6": {
+    "name": "MI_missionamb",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c9e142bbd7c405d5": {
+    "name": "MI_missionamb",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "be369edbefbed3ed": {
+    "name": "MI_prank",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0604ec565ad2854a": {
+    "name": "MI_prank",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "3d62db060893ec2c": {
+    "name": "MI_punish",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "aa55bc99711e6f5a": {
+    "name": "MI_punish",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c9484b812bd0f3a6": {
+    "name": "MI_racing",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ebe01c80cee023ab": {
+    "name": "MI_racing",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d581206f206f915c": {
+    "name": "MI_save",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ff239d9c98db2c54": {
+    "name": "MI_save",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "5c0821a4d1a759dc": {
+    "name": "MI_sleep",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "efa175992a341917": {
+    "name": "MI_sleep",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "e0862bfd7ff87f7b": {
+    "name": "MI_tattoo",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "62b771a7529dd048": {
+    "name": "MI_tattoo",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "af85e9b3203e3807": {
+    "name": "Pumpkin",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "881dacb9c031aa0f": {
+    "name": "Pumpkin",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "48daeb736fbd4b12": {
+    "name": "Rubband",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "0b6e593a22b3fd35": {
+    "name": "Rubband",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "e30d9a90d7db1925": {
+    "name": "Social_Apologize01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c54c0f77f92e11d9": {
+    "name": "Social_Apologize01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "464a3cbed533469c": {
+    "name": "Social_Apologize02",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "bf6a21d8e98fc02c": {
+    "name": "Social_Apologize02",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "38d781e629681ae5": {
+    "name": "Social_Bumpinch01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "890f7789778a5983": {
+    "name": "Social_Bumpinch01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9b72082604cc38c3": {
+    "name": "Social_Errands",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "1ba27276c3815ae8": {
+    "name": "Social_Errands",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "471fe08db2040db8": {
+    "name": "Social_Flirt01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f771f8b014f4aa2f": {
+    "name": "Social_Flirt02",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0c171a77164ceee7": {
+    "name": "Social_Flirt02",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "df0bb0f4b638d90a": {
+    "name": "Social_Humiliate01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2b800361cd5f85e5": {
+    "name": "Social_Humiliate01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f299e4a245d38995": {
+    "name": "Social_Kiss01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "725504f16c4f15cf": {
+    "name": "Social_Kiss01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f69f381a89772240": {
+    "name": "Social_Shove01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2834f27e860bea41": {
+    "name": "Social_Shove01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e395ccf633f889f5": {
+    "name": "Social_Taunt01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d1e2636c84ac7f11": {
+    "name": "Social_Taunt01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ed11c9387d0cfd02": {
+    "name": "Social_Taunt02",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "326c57258c149790": {
+    "name": "Social_Taunt02",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "991f65c6f151a613": {
+    "name": "Social_Wave01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "de57c9e5c0d37b87": {
+    "name": "Social_Wave01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f4f4602b8f6405f6": {
+    "name": "Social_Wedgie01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2c779a42e65dc647": {
+    "name": "Social_Wedgie01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e728813b2f235933": {
+    "name": "Social_bull",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4d41b5f494ee3aa3": {
+    "name": "Social_bull",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "bba153859faa1856": {
+    "name": "Social_cashmed",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4c30bcd34c80ddd5": {
+    "name": "Social_cashmed",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a8abf8f9864ec317": {
+    "name": "Social_cashsma",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ec17ffc2a5f10903": {
+    "name": "Social_cashsma",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "00b4bbc98d8d2b3c": {
+    "name": "Social_choc",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "39fb8b6962cd6c73": {
+    "name": "Social_choc",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "63c4ef99479c942b": {
+    "name": "Social_flower",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "26558dca58ed19a1": {
+    "name": "Social_flower",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2da4087309e0d0c1": {
+    "name": "Social_kickme",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "56512d1a1254350b": {
+    "name": "Social_kickme",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "055c3ba9f745afd9": {
+    "name": "TadKey",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "4ff71e5f6a7c6050": {
+    "name": "TadKey",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "477d71f94ee82501": {
+    "name": "Tombstone",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "301a8c073dd38f10": {
+    "name": "Tombstone",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "bb004ad6327b57d7": {
+    "name": "Wii_1",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "3216ddb1b4a91ed3": {
+    "name": "Wii_plus",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f930fc277301856f": {
+    "name": "Wii_2",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "892e15620562cb8b": {
+    "name": "Wii_A",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "ffb84aeda659310e": {
+    "name": "Wii_B",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "39b21de75651777a": {
+    "name": "Wii_B",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "851d08b88763a70d": {
+    "name": "Wii_C",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "0f8cd169d1b389aa": {
+    "name": "Wii_C",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "e3f990ef5deb48ac": {
+    "name": "Wii_ctrl_stick",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "fc06138561814880": {
+    "name": "Wii_ctrl_stick",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "ac08fd3716fcf423": {
+    "name": "Wii_minus",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "14f95f1b265af497": {
+    "name": "Wii_nun",
+    "plane": 0,
+    "size": [
+      32,
+      64
+    ],
+    "format": 14
+  },
+  "65b0e5877685c9fe": {
+    "name": "Wii_nun",
+    "plane": 1,
+    "size": [
+      32,
+      64
+    ],
+    "format": 14
+  },
+  "2edaf4b82264bf12": {
+    "name": "Wii_nun_att",
+    "plane": 0,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "fbf8ffac81a4f591": {
+    "name": "Wii_nun_att",
+    "plane": 1,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "37c6ca8c6b029ef9": {
+    "name": "Wii_nun_remup",
+    "plane": 0,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "ca517631d6248b4d": {
+    "name": "Wii_nun_remup",
+    "plane": 1,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "46ad5c511922dda1": {
+    "name": "Wii_nunrem_d",
+    "plane": 0,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "7804f3db81ecc63c": {
+    "name": "Wii_nunrem_d",
+    "plane": 1,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "e6324dfed24bcb57": {
+    "name": "Wii_pad",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "81ae5ec06221368d": {
+    "name": "Wii_pad_u_d",
+    "plane": 1,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "a376bbd95c695e46": {
+    "name": "Wii_pad_d",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "b1b6d94ea93db930": {
+    "name": "Wii_pad_l",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "0488061254b88eb7": {
+    "name": "Wii_pad_r",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "8505c31f14edbeb5": {
+    "name": "Wii_pad_u",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "6ca248dedc968204": {
+    "name": "Wii_pad_u_d",
+    "plane": 0,
+    "size": [
+      77,
+      77
+    ],
+    "format": 14
+  },
+  "de0132b0e9fdec02": {
+    "name": "Wii_plus",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "fc7b251b4dbdc54f": {
+    "name": "Wii_rem_att",
+    "plane": 0,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "bd3d08f78c5981f4": {
+    "name": "Wii_rem_att",
+    "plane": 1,
+    "size": [
+      128,
+      64
+    ],
+    "format": 14
+  },
+  "d9748e9d78258d0f": {
+    "name": "Wii_stick_u",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "5b7af13a9c47ec0c": {
+    "name": "Wii_stick_u",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "6ff4a1209766cec6": {
+    "name": "Wii_wiimote",
+    "plane": 0,
+    "size": [
+      32,
+      64
+    ],
+    "format": 14
+  },
+  "aea9e06592df2209": {
+    "name": "Wii_wiimote",
+    "plane": 1,
+    "size": [
+      32,
+      64
+    ],
+    "format": 14
+  },
+  "4e03125af03efc09": {
+    "name": "Wii_z",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "e43d4daa3c268704": {
+    "name": "Wii_z",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "268f0988b2fe1cb8": {
+    "name": "arrow_down",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "eb69bc17407d88ea": {
+    "name": "arrow_up",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4f250ff5f35f2596": {
+    "name": "arrow_left",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2926c0e167eb2582": {
+    "name": "arrow_right",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "dd7fec516965d5da": {
+    "name": "arrow_up",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "7d8ce545c8b5a5a2": {
+    "name": "banana",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a17ab839829b82d9": {
+    "name": "banana",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e53c30cd031bdf5a": {
+    "name": "bike_blip",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "083481508e993f3c": {
+    "name": "bike_blip",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "c3bbfe7da57ebdfb": {
+    "name": "both_shake",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "12403c8acb38af06": {
+    "name": "both_shake",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "6eee5087e798a933": {
+    "name": "both_up",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "6964d825e9ed8727": {
+    "name": "both_up",
+    "plane": 1,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "106e79fa24e1aaea": {
+    "name": "bullyCrest",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "72bc40dc152ca792": {
+    "name": "bullyCrest",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "6d6ea0eedbeec656": {
+    "name": "choco_box",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f1707f2196b5e091": {
+    "name": "choco_box",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "4c499e3138edb346": {
+    "name": "coin_penny",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "218e96e95fdd12ed": {
+    "name": "coin_penny",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d7701f08c7ccaddb": {
+    "name": "flowers",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "78dad71f29e26fdb": {
+    "name": "flowers",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "64c62bab5df48890": {
+    "name": "gngcard",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "ead1bb3e21267ac3": {
+    "name": "gngcard",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "43776cde573c1f57": {
+    "name": "gnome",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "f2262f22722fb8cc": {
+    "name": "gnome",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "a09657afe40ab18d": {
+    "name": "gnome01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "37cf02c81b9ef1df": {
+    "name": "gnome01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "e7ae3e0092501365": {
+    "name": "icon_nun_d",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "2d867941a1cf4f7d": {
+    "name": "icon_nun_d",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "81e86d157ade9b5a": {
+    "name": "icon_nun_l",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "86b6db88fefe6e33": {
+    "name": "icon_nun_l",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "89a3541c9c3baef2": {
+    "name": "icon_nun_sh_rl",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "dc392d5be472321a": {
+    "name": "icon_rem_sh_rl",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "2ef78b09afa77aa6": {
+    "name": "icon_nun_sh_ud",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "9b7a75ec112f0edb": {
+    "name": "icon_nun_sh_ud",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "5212b39d3f2873fd": {
+    "name": "icon_nun_t_r",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "27bd0a2025a3a6e8": {
+    "name": "icon_nun_t_r",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "f0df805294b6b37d": {
+    "name": "icon_nun_twi_l",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "6812e5a7bc64af8e": {
+    "name": "icon_nun_twi_l",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "74f0bd0172535050": {
+    "name": "icon_nun_twi_r",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "568fc089d9a33f28": {
+    "name": "icon_nun_twi_r",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "2dd0e68f96481114": {
+    "name": "icon_nun_u",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "5b7ce1045ddcf90a": {
+    "name": "icon_nun_u",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "b0c0d4b5a4849f28": {
+    "name": "icon_nun_z_mash1",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "8638bb5ecf6d26a2": {
+    "name": "icon_nun_z_mash2",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "5815349e6957882d": {
+    "name": "icon_nun_z_mash2",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "bc9c94de24d20847": {
+    "name": "icon_rem_d",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "bb23edd2910a077d": {
+    "name": "icon_rem_d",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "6542014628b4b31a": {
+    "name": "icon_rem_l",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "276a31df1dc5776c": {
+    "name": "icon_rem_l",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "d5aeb6a1608f7d3b": {
+    "name": "icon_rem_r",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "dc5e2e338695f579": {
+    "name": "icon_rem_r",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "71b490a6fdcb7c95": {
+    "name": "icon_rem_r_ab",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "badfcfcb353bb13f": {
+    "name": "icon_rem_r_ab",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "73f799367f02abda": {
+    "name": "icon_rem_sh_rl",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "8e7a33b0867e6990": {
+    "name": "icon_rem_sh_ud",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "3be44323570d7cd6": {
+    "name": "icon_rem_sh_ud",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "9d748c8a1f83895e": {
+    "name": "icon_rem_t_l",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "d9cfe4baeb9c3b30": {
+    "name": "icon_rem_t_l",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "0c6b77593dca67c6": {
+    "name": "icon_rem_twi_l",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "799a636ec17685b9": {
+    "name": "icon_rem_twi_l",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "44aae2d6a3dd4151": {
+    "name": "icon_rem_twi_r",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "88a591a734674133": {
+    "name": "icon_rem_twi_r",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "7be5e18514f2d5ff": {
+    "name": "icon_rem_u",
+    "plane": 0,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "5d5070ccb164b142": {
+    "name": "icon_rem_u",
+    "plane": 1,
+    "size": [
+      128,
+      256
+    ],
+    "format": 14
+  },
+  "cb4b34ef42019324": {
+    "name": "package",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "c05ec0cf88eff71f": {
+    "name": "package",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "1c2396d84fa2fdbb": {
+    "name": "pickup",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "55e9c48c8611f0a4": {
+    "name": "pickup",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "d9dd088b1c56a4a7": {
+    "name": "pointer",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "772ff08412f0fb11": {
+    "name": "pointer",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "2f664c7b103f5bc1": {
+    "name": "radar_centre",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "f2891a8bf090a147": {
+    "name": "radar_centre",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4015177e0ca11996": {
+    "name": "radar_north",
+    "plane": 0,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "8191329b82e14c99": {
+    "name": "radar_north",
+    "plane": 1,
+    "size": [
+      16,
+      16
+    ],
+    "format": 14
+  },
+  "435e217ffad2e2e1": {
+    "name": "radio",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "21934d829f67df76": {
+    "name": "radio",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "7265a4309f38d523": {
+    "name": "radiopart",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "b1cd3b4ff2c98d1e": {
+    "name": "radiopart",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "c0ed77c09abfa842": {
+    "name": "rubberband",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "7e57d722dd1d05f4": {
+    "name": "rubberband",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "8855d257f6e4edea": {
+    "name": "spraycan",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "ec5ef788017a6703": {
+    "name": "spraycan",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "ed76c515dc3d921a": {
+    "name": "spraycan01",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c462c4f7f8ccea2a": {
+    "name": "spraycan01",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "4fa959a2349a8c6b": {
+    "name": "tagdraw",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d3cfb83533bda465": {
+    "name": "tagdraw",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "c9b47a16bd41a50c": {
+    "name": "tagpaint",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "5f49c22d2a8ef02e": {
+    "name": "target2A",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9e3bfd456e0ef8bc": {
+    "name": "target2B",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "13566acb31344d1b": {
+    "name": "target2B",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "0e39cc13e3d7c301": {
+    "name": "target9A",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "5507cdcb0323ec8d": {
+    "name": "target9B",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "d491f70a89bed1f4": {
+    "name": "tradecard",
+    "plane": 0,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "6aa39f271698df37": {
+    "name": "tradecard",
+    "plane": 1,
+    "size": [
+      64,
+      64
+    ],
+    "format": 14
+  },
+  "55f1af70b34d671d": {
+    "name": "weap_arrow_dow",
+    "plane": 0,
+    "size": [
+      16,
+      32
+    ],
+    "format": 14
+  },
+  "a5ddf873d8205a36": {
+    "name": "weap_arrow_nor",
+    "plane": 1,
+    "size": [
+      16,
+      32
+    ],
+    "format": 14
+  },
+  "73d286fc4c1e5012": {
+    "name": "weap_arrow_nor",
+    "plane": 0,
+    "size": [
+      16,
+      32
+    ],
+    "format": 14
+  },
+  "0b496909291af5e6": {
+    "name": "HUD_checkmark",
+    "plane": 0,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "9453d113c1aca5d5": {
+    "name": "HUD_checkmark",
+    "plane": 1,
+    "size": [
+      32,
+      32
+    ],
+    "format": 14
+  },
+  "a5a30e4872050bd7": {
+    "name": "HUD_winright",
+    "plane": 0,
+    "size": [
+      8,
+      8
+    ],
+    "format": 14
+  },
+  "f38f296cae0f4e5d": {
+    "name": "minimap01",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "93b84a0c75195a48": {
+    "name": "minimap02",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "a93d4be8a4e955a4": {
+    "name": "minimap03",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "f85388874dfa902c": {
+    "name": "minimap04",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "045144b7e59ece8e": {
+    "name": "minimap_win01",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "f4c99738c96fd63d": {
+    "name": "minimap_win02",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "05d2ce7b0e3fae2c": {
+    "name": "minimap_win03",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "c9196a11da5eec33": {
+    "name": "minimap_win04",
+    "plane": 0,
+    "size": [
+      256,
+      256
+    ],
+    "format": 14
+  },
+  "a303bf29a9bbaa53": {
+    "source": "EXTradar001.txd",
+    "name": "radar00",
+    "plane": 0,
+    "size": [
+      8,
+      8
+    ]
+  },
+  "d4e132c583102b8c": {
+    "source": "EXTradar001.txd",
+    "name": "radar01",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "a38e306864b2a559": {
+    "source": "EXTradar055.txd",
+    "name": "radar54",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4624419c02b32e0c": {
+    "source": "EXTradar055.txd",
+    "name": "radar55",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "bb0e148870696da7": {
+    "source": "EXTradar057.txd",
+    "name": "radar56",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "bfc7ecd8f05b7b0a": {
+    "source": "EXTradar071.txd",
+    "name": "radar70",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "63e99700e4ce3fd3": {
+    "source": "EXTradar071.txd",
+    "name": "radar71",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "603f420dbc23c9de": {
+    "source": "EXTradar073.txd",
+    "name": "radar72",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "71b3c3358acf89a6": {
+    "source": "EXTradar073.txd",
+    "name": "radar73",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "0a99304d48666754": {
+    "source": "EXTradar075.txd",
+    "name": "radar74",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "6a4bd3cbd5c50889": {
+    "source": "EXTradar075.txd",
+    "name": "radar75",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "aa82673dda16e739": {
+    "source": "EXTradar077.txd",
+    "name": "radar76",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "7934ca440a6d5228": {
+    "source": "EXTradar077.txd",
+    "name": "radar77",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "90c0cb9a1cfe2b53": {
+    "source": "EXTradar091.txd",
+    "name": "radar90",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "adba07be98c44ccc": {
+    "source": "EXTradar091.txd",
+    "name": "radar91",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "45bd904db1f9fabd": {
+    "source": "EXTradar093.txd",
+    "name": "radar92",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8ec9826b5ab0389b": {
+    "source": "EXTradar093.txd",
+    "name": "radar93",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "aafb3a0700a62c34": {
+    "source": "EXTradar095.txd",
+    "name": "radar94",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "79f902c9eb099824": {
+    "source": "EXTradar095.txd",
+    "name": "radar95",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "c3bcbd20dc208147": {
+    "source": "EXTradar097.txd",
+    "name": "radar96",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "903fa878466abc58": {
+    "source": "EXTradar097.txd",
+    "name": "radar97",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "18ef90f04f6a3496": {
+    "source": "EXTradar111.txd",
+    "name": "radar110",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d77073d9ce4e456e": {
+    "source": "EXTradar111.txd",
+    "name": "radar111",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "80ce4b8525967ce8": {
+    "source": "EXTradar113.txd",
+    "name": "radar112",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "14ea52f72014b593": {
+    "source": "EXTradar113.txd",
+    "name": "radar113",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d421b805b57b1ef3": {
+    "source": "EXTradar115.txd",
+    "name": "radar114",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "dd700147d679e08a": {
+    "source": "EXTradar115.txd",
+    "name": "radar115",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8ddffe93e80faa6f": {
+    "source": "EXTradar117.txd",
+    "name": "radar116",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8925691e3f710205": {
+    "source": "EXTradar117.txd",
+    "name": "radar117",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "e4ba80261bb1671f": {
+    "source": "EXTradar131.txd",
+    "name": "radar130",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "ced49999e567b5dd": {
+    "source": "EXTradar131.txd",
+    "name": "radar131",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "becd6edc4ff49595": {
+    "source": "EXTradar133.txd",
+    "name": "radar132",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "f4366c5424f1b995": {
+    "source": "EXTradar133.txd",
+    "name": "radar133",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "627453b11b03442c": {
+    "source": "EXTradar135.txd",
+    "name": "radar134",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "19f03c61db6dc585": {
+    "source": "EXTradar135.txd",
+    "name": "radar135",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "a0c8da7c36b5df6d": {
+    "source": "EXTradar137.txd",
+    "name": "radar136",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "12035af48ee28ddc": {
+    "source": "EXTradar137.txd",
+    "name": "radar137",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "612f88fa52ea5eb1": {
+    "source": "EXTradar151.txd",
+    "name": "radar150",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "33d1818bde16f09c": {
+    "source": "EXTradar151.txd",
+    "name": "radar151",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8f46fd17159c4826": {
+    "source": "EXTradar153.txd",
+    "name": "radar152",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "df2ebe67db2f63e5": {
+    "source": "EXTradar153.txd",
+    "name": "radar153",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "51f7d140db1954d2": {
+    "source": "EXTradar155.txd",
+    "name": "radar154",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "fcf88197500e9e2f": {
+    "source": "EXTradar155.txd",
+    "name": "radar155",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "2836e256d947b8e4": {
+    "source": "EXTradar157.txd",
+    "name": "radar156",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3ddbea9a187eeb67": {
+    "source": "EXTradar157.txd",
+    "name": "radar157",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "62934f8736a1ad7b": {
+    "source": "EXTradar159.txd",
+    "name": "radar158",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "286acd5666bc0759": {
+    "source": "EXTradar171.txd",
+    "name": "radar170",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3ff92b59d603bd6a": {
+    "source": "EXTradar171.txd",
+    "name": "radar171",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "271665aba79b3518": {
+    "source": "EXTradar173.txd",
+    "name": "radar172",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4c621b2c38ca38d9": {
+    "source": "EXTradar173.txd",
+    "name": "radar173",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "be3d7b5080950755": {
+    "source": "EXTradar175.txd",
+    "name": "radar174",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "f2e944fcd05f7211": {
+    "source": "EXTradar175.txd",
+    "name": "radar175",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5f9ef54a2a15ba2b": {
+    "source": "EXTradar177.txd",
+    "name": "radar176",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "964a9dcfb33dcb07": {
+    "source": "EXTradar177.txd",
+    "name": "radar177",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "2b4feebbd1564ec1": {
+    "source": "EXTradar179.txd",
+    "name": "radar178",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "f83efd87faf85ac5": {
+    "source": "EXTradar179.txd",
+    "name": "radar179",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "26563d72f47cce10": {
+    "source": "EXTradar189.txd",
+    "name": "radar189",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d8a70abb3e7ce46b": {
+    "source": "EXTradar191.txd",
+    "name": "radar190",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "919e2ced367757f3": {
+    "source": "EXTradar191.txd",
+    "name": "radar191",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "be2687cae5811574": {
+    "source": "EXTradar193.txd",
+    "name": "radar192",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "0fa6b16fca27d301": {
+    "source": "EXTradar193.txd",
+    "name": "radar193",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3cf400d6a001c3ed": {
+    "source": "EXTradar195.txd",
+    "name": "radar194",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "93b5fa9c18abf566": {
+    "source": "EXTradar195.txd",
+    "name": "radar195",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8ce7302f587e7a04": {
+    "source": "EXTradar197.txd",
+    "name": "radar196",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "b619dff757b61626": {
+    "source": "EXTradar197.txd",
+    "name": "radar197",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "8098f9cf90685430": {
+    "source": "EXTradar199.txd",
+    "name": "radar198",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "792cb4a789647eb3": {
+    "source": "EXTradar199.txd",
+    "name": "radar199",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "dc14c66cba3e4f43": {
+    "source": "EXTradar209.txd",
+    "name": "radar208",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "45521bcc2ca055ed": {
+    "source": "EXTradar209.txd",
+    "name": "radar209",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d153c9dd8202a57e": {
+    "source": "EXTradar211.txd",
+    "name": "radar210",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "925c52f438a2bdc5": {
+    "source": "EXTradar211.txd",
+    "name": "radar211",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "0b781d9764fcd1d0": {
+    "source": "EXTradar213.txd",
+    "name": "radar212",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "7792c9f6cc674551": {
+    "source": "EXTradar213.txd",
+    "name": "radar213",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d17ceca7fa1af911": {
+    "source": "EXTradar215.txd",
+    "name": "radar214",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "fb91839d937bdb02": {
+    "source": "EXTradar215.txd",
+    "name": "radar215",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "722c5b9fae11a9ea": {
+    "source": "EXTradar217.txd",
+    "name": "radar216",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "c9dfa8640f5a606d": {
+    "source": "EXTradar217.txd",
+    "name": "radar217",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "fe0f443a5a54ec29": {
+    "source": "EXTradar219.txd",
+    "name": "radar218",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "cd04e656c4c89555": {
+    "source": "EXTradar229.txd",
+    "name": "radar228",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4c22e68bb0d405c8": {
+    "source": "EXTradar229.txd",
+    "name": "radar229",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5c9c8e3a1888457c": {
+    "source": "EXTradar231.txd",
+    "name": "radar230",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "ab95ea3f29d520b3": {
+    "source": "EXTradar231.txd",
+    "name": "radar231",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "2da12b3eb3a3444b": {
+    "source": "EXTradar233.txd",
+    "name": "radar232",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "778ec2d8abb29ad3": {
+    "source": "EXTradar233.txd",
+    "name": "radar233",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "11d7a6c80e85991f": {
+    "source": "EXTradar235.txd",
+    "name": "radar234",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "cc3261798b96961b": {
+    "source": "EXTradar235.txd",
+    "name": "radar235",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "6b4c5fac3c6acfe9": {
+    "source": "EXTradar237.txd",
+    "name": "radar236",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3d6c87ee43afbf6b": {
+    "source": "EXTradar237.txd",
+    "name": "radar237",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "578704eb55b58ebe": {
+    "source": "EXTradar239.txd",
+    "name": "radar238",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "39cca0e3620ce8f2": {
+    "source": "EXTradar249.txd",
+    "name": "radar248",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "218880f22f2f586a": {
+    "source": "EXTradar249.txd",
+    "name": "radar249",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "79d17af9a1e1fe69": {
+    "source": "EXTradar251.txd",
+    "name": "radar250",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "d90c54046b3a9ec5": {
+    "source": "EXTradar251.txd",
+    "name": "radar251",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "17ac4d8b927d34b4": {
+    "source": "EXTradar253.txd",
+    "name": "radar252",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "214057b852000b88": {
+    "source": "EXTradar253.txd",
+    "name": "radar253",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "7faaf90ebe098d36": {
+    "source": "EXTradar255.txd",
+    "name": "radar254",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "a8ae9f2898aade81": {
+    "source": "EXTradar255.txd",
+    "name": "radar255",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "57b79a716a02edbf": {
+    "source": "EXTradar257.txd",
+    "name": "radar256",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "dad32a10618ae80a": {
+    "source": "EXTradar257.txd",
+    "name": "radar257",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "a4f28191050b168f": {
+    "source": "EXTradar269.txd",
+    "name": "radar268",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4000b8cf4359b862": {
+    "source": "EXTradar269.txd",
+    "name": "radar269",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "6c4d7970e6e82082": {
+    "source": "EXTradar271.txd",
+    "name": "radar270",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3fb95a8afcffc676": {
+    "source": "EXTradar271.txd",
+    "name": "radar271",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "e31e3063ab6f02a2": {
+    "source": "EXTradar273.txd",
+    "name": "radar272",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3ccdb3985d1e8499": {
+    "source": "EXTradar273.txd",
+    "name": "radar273",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "745b8c27df0f21eb": {
+    "source": "EXTradar275.txd",
+    "name": "radar274",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "e66842c0a642254e": {
+    "source": "EXTradar275.txd",
+    "name": "radar275",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "ce01375f47c09449": {
+    "source": "EXTradar277.txd",
+    "name": "radar276",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "66541f0c16659c5c": {
+    "source": "EXTradar277.txd",
+    "name": "radar277",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "823dad38dbf6e498": {
+    "source": "EXTradar289.txd",
+    "name": "radar288",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4ea88bf698f1b2a6": {
+    "source": "EXTradar289.txd",
+    "name": "radar289",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "e687b344b3f4285e": {
+    "source": "EXTradar291.txd",
+    "name": "radar290",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5fc2a1d58d79d73c": {
+    "source": "EXTradar291.txd",
+    "name": "radar291",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "bc146d2988f15fd0": {
+    "source": "EXTradar293.txd",
+    "name": "radar292",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "7c4e55fbfdc70775": {
+    "source": "EXTradar293.txd",
+    "name": "radar293",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "3a8ea869e6ef2583": {
+    "source": "EXTradar295.txd",
+    "name": "radar294",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "b00f59dc03793659": {
+    "source": "EXTradar295.txd",
+    "name": "radar295",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "9d927bb9d4f2821e": {
+    "source": "EXTradar297.txd",
+    "name": "radar296",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "91323975ae09db6d": {
+    "source": "EXTradar297.txd",
+    "name": "radar297",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5c54cc8a2dc1258d": {
+    "source": "EXTradar309.txd",
+    "name": "radar308",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "0f7b985f1ae045f3": {
+    "source": "EXTradar309.txd",
+    "name": "radar309",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "82cca04994e20181": {
+    "source": "EXTradar311.txd",
+    "name": "radar310",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "a8ae1d48633b4e2c": {
+    "source": "EXTradar311.txd",
+    "name": "radar311",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "faf2091bba8115b6": {
+    "source": "EXTradar313.txd",
+    "name": "radar312",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5aa67cb577ec6e99": {
+    "source": "EXTradar313.txd",
+    "name": "radar313",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "ad81de836b8bf3c1": {
+    "source": "EXTradar315.txd",
+    "name": "radar314",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "2f0f31e9d2f4295b": {
+    "source": "EXTradar315.txd",
+    "name": "radar315",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "854ddce6949442d0": {
+    "source": "EXTradar317.txd",
+    "name": "radar316",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4b8809e3f249b31c": {
+    "source": "EXTradar317.txd",
+    "name": "radar317",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4c3b29832c7f398d": {
+    "source": "EXTradar329.txd",
+    "name": "radar329",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "897632f5fb808831": {
+    "source": "EXTradar331.txd",
+    "name": "radar330",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "aa10bab918ae5b94": {
+    "source": "EXTradar331.txd",
+    "name": "radar331",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5e9023b4d08ccba6": {
+    "source": "EXTradar333.txd",
+    "name": "radar332",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "4c337a5ff64fc9fa": {
+    "source": "EXTradar335.txd",
+    "name": "radar334",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "e7b0dcae9eaceced": {
+    "source": "EXTradar335.txd",
+    "name": "radar335",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5bef9b55b519ec50": {
+    "source": "EXTradar337.txd",
+    "name": "radar336",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "2efcfa8bdf81ae98": {
+    "source": "EXTradar337.txd",
+    "name": "radar337",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "76fb583244972deb": {
+    "source": "EXTradar349.txd",
+    "name": "radar349",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "5ae6843cbd1f40ec": {
+    "source": "EXTradar351.txd",
+    "name": "radar350",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "fae329d4c92f38ee": {
+    "source": "EXTradar351.txd",
+    "name": "radar351",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "b9fb900af4a39e94": {
+    "source": "EXTradar355.txd",
+    "name": "radar354",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "777c743c33a92155": {
+    "source": "EXTradar355.txd",
+    "name": "radar355",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "fcb784c812cb1e89": {
+    "source": "EXTradar375.txd",
+    "name": "radar374",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "7a2a7634a5982c9f": {
+    "source": "EXTradar375.txd",
+    "name": "radar375",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "6c0c36e96f5a95e7": {
+    "source": "EXTradar395.txd",
+    "name": "radar394",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  },
+  "559e41401f7f4596": {
+    "source": "EXTradar395.txd",
+    "name": "radar395",
+    "plane": 0,
+    "size": [
+      128,
+      128
+    ]
+  }
+}

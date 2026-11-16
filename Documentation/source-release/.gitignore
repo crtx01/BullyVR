@@ -1,0 +1,15 @@
+/backup/
+/build/
+/Builds/
+/recovered/recoveryplus-original/
+/upstream/.git/
+__pycache__/
+*.pyc
+*.apk
+*.keystore
+*.jks
+*.sav
+*.iso
+*.rvz
+*.wbfs
+.env*

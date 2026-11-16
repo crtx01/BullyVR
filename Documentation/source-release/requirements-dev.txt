@@ -1,0 +1,4 @@
+Pillow
+keystone-engine
+unicorn
+pyelftools

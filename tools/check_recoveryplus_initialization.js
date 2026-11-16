@@ -1,0 +1,14 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const runtime=fs.readFileSync('build/recoveryplus-review-runtime.js','utf8');
+const start=runtime.indexOf('let recoveryInitializationStarted=false;');
+const end=runtime.indexOf(' recoveryInitializationStarted=true;',start)+' recoveryInitializationStarted=true;'.length;
+assert.ok(start>=0&&end>start);
+let running=false,attempts=0;
+const base={add(){return {readPointer(){return {equals(){return true;}};}};}};
+const mod={base,getExportByName(){return {equals(){return true;}};}};
+const context=vm.createContext({Process:{findModuleByName(){return mod;}},NativeFunction:function(){return ()=>running;},ptr(){},fail(){attempts++;throw Error('simulated failure after hook installation');}});
+vm.runInContext(runtime.slice(start,end)+' fail(); }',context);
+assert.equal(context.initialize(),false,'wait for engine without consuming attempt');
+running=true;assert.throws(()=>context.initialize(),/simulated failure/);
+assert.equal(context.initialize(),true);assert.equal(attempts,1,'never accumulate duplicate hooks after partial failure');
+console.log('Passed: wait for engine; partial initialization cannot install hooks repeatedly');
