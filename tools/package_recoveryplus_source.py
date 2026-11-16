@@ -42,9 +42,12 @@ if (ROOT/'upstream/.git').exists():
     patch=subprocess.check_output(['git','-C',str(ROOT/'upstream'),'diff','--','Source/Core/VideoCommon/VideoConfig.cpp'])
 else:patch=(ROOT/'reference/upstream-local-changes.patch').read_bytes()
 (OUT/'reference/upstream-local-changes.patch').write_bytes(patch)
+(OUT/'.gitattributes').write_bytes(b'* text=auto eol=lf\n')
+for p in OUT.rglob('*'):
+    if p.is_file():p.write_bytes(p.read_bytes().replace(b'\r\n',b'\n'))
 manifest={str(p.relative_to(OUT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest()
           for p in OUT.rglob('*') if p.is_file() and p.name!='SOURCE-SHA256.json'}
-(OUT/'SOURCE-SHA256.json').write_text(json.dumps(manifest,indent=2),encoding='utf8')
+(OUT/'SOURCE-SHA256.json').write_bytes(json.dumps(manifest,indent=2).encode('utf8'))
 archive=ROOT/'Entrega/BullyVR-r34-source.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
     for p in sorted(OUT.rglob('*')):
