@@ -4,10 +4,10 @@ Created by **crtx01**, a Brazilian developer. This source snapshot documents the
 Recovery+ r40 test candidate and the available earlier native implementation.
 It is an independent fan project, not an official Rockstar or Meta release.
 
-**Published APK:** [r34 / 0.0.1-hf2 test candidate](https://github.com/crtx01/BullyVR/releases/tag/v0.0.1-hf2).
-The source on this branch is newer (**r40**, November 24). It fixes a reproduced
-VR-menu font-texture assertion. Updating the source does not silently replace
-the older release APK. See [STABILITY.md](STABILITY.md) for measured coverage.
+**Published APK:** [Recovery+ r40 test update](https://github.com/crtx01/BullyVR/releases/tag/v0.0.1-r40).
+The current source and test APK are **r40**, November 24. This update fixes a
+reproduced VR-menu font-texture assertion. See [STABILITY.md](STABILITY.md) for
+measured coverage and remaining validation limits.
 Sideload the APK and open **BullyVR Recovery+** under Unknown Sources. Supply your
 own US Wii copy of Bully: Scholarship Edition (**RB7E54**) in a **Bully VR** folder,
 then select that folder through Dolphin's Add Games/Add folder picker.
