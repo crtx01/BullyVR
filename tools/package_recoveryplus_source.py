@@ -1,8 +1,10 @@
 """Export an explicit allowlist, never the workspace or device backups."""
-import hashlib,json,re,shutil,subprocess,zipfile
+import hashlib,json,re,shutil,subprocess,zipfile,os
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'Entrega/BullyVR-r34-source'
+revision=os.environ.get('BULLY_REVIEW_REVISION','r40')
+assert re.fullmatch(r'r\d+',revision)
+OUT=ROOT/f'Entrega/BullyVR-{revision}-source'
 OUT.mkdir(parents=True,exist_ok=True)
 def copy(rel):
     path=OUT/rel;path.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(ROOT/rel,path)
@@ -12,7 +14,9 @@ for p in (ROOT/'tests').iterdir():
     if p.is_file() and p.suffix in ('.py','.cpp','.md','.txt'):copy(p.relative_to(ROOT))
 names=['recoveryplus_stage_review.py','recoveryplus_prompt_pack.py','build_recoveryplus_review.py',
        'build_recoveryplus_mission_skip.py','build_recoveryplus_tutorial_layout.py',
-       'prepare_recoveryplus_source.py','package_recoveryplus_source.py','build_contact_bridge.py']
+       'prepare_recoveryplus_source.py','package_recoveryplus_source.py','build_contact_bridge.py',
+       'recoveryplus_session.py','recoveryplus_review_host.py','recoveryplus_review_client.py',
+       'nov24_live_stability.py','nov24_live_items.py','nov24_scenes.py','nov24_gallery.py','nov24_r40_smoke.py']
 names += [p.name for p in (ROOT/'tools').glob('check_recoveryplus_*') if p.suffix in ('.js','.py')]
 for name in names:copy(Path('tools')/name)
 for name in ['Documentation/recoveryplus/mission-catalog.json','recovered/texture-hashes.json']:
@@ -20,6 +24,11 @@ for name in ['Documentation/recoveryplus/mission-catalog.json','recovered/textur
 for name in ['README.md','BUILD.md','STABILITY.md','SOURCE-PROVENANCE.md','.gitignore','requirements-dev.txt']:
     copy(Path('Documentation/source-release')/name)
     shutil.copy2(ROOT/'Documentation/source-release'/name,OUT/name)
+current_stability=ROOT/'Documentation/source-release/STABILITY-r39.md'
+if current_stability.exists():shutil.copy2(current_stability,OUT/'STABILITY.md')
+workflow=OUT/'.github/workflows/runtime.yml'
+workflow.parent.mkdir(parents=True,exist_ok=True)
+shutil.copy2(ROOT/'Documentation/source-release/CI.yml',workflow)
 controls=ROOT/'CONTROLS.md'
 if not controls.exists():controls=ROOT/'Entrega/BullyVR-0.0.1-hf1-Kit/INSTRUCOES/CONTROLS.md'
 shutil.copy2(controls,OUT/'CONTROLS.md')
@@ -39,7 +48,7 @@ copy(Path('upstream/COPYING'))
 for p in (ROOT/'upstream/LICENSES').glob('*'):
     if p.is_file():copy(p.relative_to(ROOT))
 if (ROOT/'upstream/.git').exists():
-    patch=subprocess.check_output(['git','-C',str(ROOT/'upstream'),'diff','--','Source/Core/VideoCommon/VideoConfig.cpp'])
+    patch=subprocess.check_output(['git','-C',str(ROOT/'upstream'),'diff','--','Source/Core/VideoCommon/VideoConfig.cpp','Source/Core/VideoCommon/OnScreenUI.cpp'])
 else:patch=(ROOT/'reference/upstream-local-changes.patch').read_bytes()
 (OUT/'reference/upstream-local-changes.patch').write_bytes(patch)
 (OUT/'.gitattributes').write_bytes(b'* text=auto eol=lf\n')
@@ -48,7 +57,7 @@ for p in OUT.rglob('*'):
 manifest={str(p.relative_to(OUT)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest()
           for p in OUT.rglob('*') if p.is_file() and p.name!='SOURCE-SHA256.json'}
 (OUT/'SOURCE-SHA256.json').write_bytes(json.dumps(manifest,indent=2).encode('utf8'))
-archive=ROOT/'Entrega/BullyVR-r34-source.zip'
+archive=ROOT/f'Entrega/BullyVR-{revision}-source.zip'
 with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:
     for p in sorted(OUT.rglob('*')):
         if p.is_file():z.write(p,p.relative_to(OUT))

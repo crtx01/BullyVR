@@ -911,11 +911,14 @@ static void drawControls(ImDrawList* dl,void* ctx){
 #if BULLY_DEMO
  if(demoComplete)centeredText(dl,{*(float*)((uint8_t*)ctx+8)*.5f,*(float*)((uint8_t*)ctx+12)*.12f},22.f,wheelStyle::gold,"DEMO CONCLUIDA - Explore livremente a escola");
 #endif
- if(!helpOpen)return;float w=*(float*)((uint8_t*)ctx+8),h=*(float*)((uint8_t*)ctx+12),iw=std::min(w*.80f,h*1.35f),ih=iw*.65f;
+ if(!helpOpen)return;int first=dl->VtxBuffer.Size;float w=*(float*)((uint8_t*)ctx+8),h=*(float*)((uint8_t*)ctx+12),iw=std::min(w*.80f,h*1.35f),ih=iw*.65f;
  dl->AddRectFilled({(w-iw)/2,(h-ih)/2},{(w+iw)/2,(h+ih)/2},wheelStyle::ink,10.f);
  const char* lines[]={"BULLY VR - QUEST",tr("AE: andar | AD: virar","Left stick: walk | Right stick: turn"),tr("A: correr / skate | B: pular / ollie","A: run / skate | B: jump / ollie"),tr("X: pausa | Y: agarrar (segure)","X: pause | Y: grab (hold)"),tr("L2: segure foco / seletor | AD: opcoes","L2: hold focus / selector | Right stick: options"),tr("RT: combo de socos / mira livre e usar arma","RT: punch combo / free aim and weapon use"),tr("Grips: trocar | Segure grip direito: punhos","Grips: cycle | Hold right grip: fists"),tr("L3: menu VR com abas | R3: controles","L3: tabbed VR menu | R3: controls"),tr("Mova as maos para socar / resistir a agarrar","Move hands to punch / resist grabs")};
  for(int i=0;i<9;i++)centeredText(dl,{w*.5f,(h-ih)/2+ih*.09f+i*ih*.095f},std::min(w,h)*.022f,i?wheelStyle::paper:wheelStyle::gold,lines[i]);
  centeredText(dl,{w*.5f,(h+ih)/2+25},22.f,IM_COL32_WHITE,tr("R3: fechar controles e voltar ao jogo","R3: close controls and return to game"));
+ for(int i=first;i<dl->VtxBuffer.Size;i++){
+  auto& p=dl->VtxBuffer[i].pos;p.x=w*.5f+(p.x-w*.5f)*.68f;p.y=h*.5f+(p.y-h*.5f)*.68f;
+ }
 }
 static void drawAim(ImDrawList* dl,void* ctx,const Snapshot& s){
  if(!freeAim||travelOpen||settingsOpen||helpOpen||!physicalAimDisplayValid.load())return;

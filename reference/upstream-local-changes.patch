@@ -1,3 +1,22 @@
+diff --git a/Source/Core/VideoCommon/OnScreenUI.cpp b/Source/Core/VideoCommon/OnScreenUI.cpp
+index 5393c89..ebb45c5 100644
+--- a/Source/Core/VideoCommon/OnScreenUI.cpp
++++ b/Source/Core/VideoCommon/OnScreenUI.cpp
+@@ -260,6 +260,14 @@ void OnScreenUI::DrawImGui()
+               static_cast<int>(cmd.ClipRect.x), static_cast<int>(cmd.ClipRect.y),
+               static_cast<int>(cmd.ClipRect.z), static_cast<int>(cmd.ClipRect.w)),
+           g_gfx->GetCurrentFramebuffer()));
++      // VR hooks may append glyphs after FinalizeImGui's upload pass.
++      // Resolve these requests on the video thread before reading the TexID.
++      if (cmd.TexRef._TexData &&
++          (cmd.TexRef._TexData->Status == ImTextureStatus_WantCreate ||
++           cmd.TexRef._TexData->Status == ImTextureStatus_WantUpdates))
++      {
++        UpdateImguiTexture(cmd.TexRef._TexData);
++      }
+       g_gfx->SetTexture(0, reinterpret_cast<const AbstractTexture*>(cmd.GetTexID()));
+       g_gfx->DrawIndexed(base_index, cmd.ElemCount, base_vertex);
+       base_index += cmd.ElemCount;
 diff --git a/Source/Core/VideoCommon/VideoConfig.cpp b/Source/Core/VideoCommon/VideoConfig.cpp
 index 27244ea..b6da0b6 100644
 --- a/Source/Core/VideoCommon/VideoConfig.cpp

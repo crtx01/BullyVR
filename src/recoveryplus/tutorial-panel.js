@@ -9,7 +9,16 @@ function createRecoveryPlusTutorialPanel(main,rec,read,mem,payload){
  const branch=(from,to)=>0x48000000|((to-from)&0x03fffffc);
  function install(){
   const current=read(mem,payload.site);
-  if(installed&&current===(branch(payload.site,installed+payload.entry)>>>0))return;
+  if(installed&&current===(branch(payload.site,installed+payload.entry)>>>0)){
+   // Native cheat rebuilds and restored states can reuse this shared C0 slot.
+   // Never keep jumping into a block after its ownership/header changed.
+   const owned=read(mem,installed-8)===0xc0000000&&read(mem,installed-4)*8===payload.words.length*4&&
+    read(mem,installed)===payload.words[0]&&read(mem,installed+payload.entry)===payload.words[payload.entry/4]&&
+    read(mem,installed+payload.returnOffset+4)===0x48554443;
+   if(owned)return;
+   write(mem,payload.original,payload.site);invalidate(state.add(0x2550),mem,jit,payload.site&0xffffffe0);
+   installed=0;error='Tutorial slot replaced; original renderer restored';return;
+  }
   if(current!==payload.original){error='Unexpected tutorial renderer; patch withheld';return;}
   let start=0;
   for(let a=0x80001810;a<0x80002ff0;a+=4)if(read(mem,a)===0x00d0c0de&&read(mem,a+4)===0x00d0c0de){start=a+8;break;}

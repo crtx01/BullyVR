@@ -108,6 +108,16 @@ source=source.replace('  if(ped<0x80000000||ped>=0x94000000||!mailbox)return;',
 confirm_anchor='   if(!action||rec.base.add(0x12bf9c).readU8())return false;'
 assert source.count(confirm_anchor)==1
 source=source.replace(confirm_anchor,'''   if(!action||!rec.base.add(0x12bf98).readU8()||rec.base.add(0x12bf9c).readU8()||rec.base.add(0x12c094).readU8()||rec.base.add(0x12b734).readS32()!==-2||rec.base.add(0x12b738).readS32()!==-1){lastError='Wait for gameplay and equipment';return false;}''')
+# Slight far-plane increase, bounded to physical RAM and amortized across ticks.
+source=source.replace('const valid=a=>a>=0x80000000&&a<=0x93ffff00&&(a&3)===0;',
+ 'const valid=a=>((a>=0x80000000&&a<=0x817fff00)||(a>=0x90000000&&a<=0x93ffff00))&&(a&3)===0;')
+source=source.replace("let writes=0,lastFar=null,lastCamera=0,lastError='',enabled=true;",
+ "let writes=0,lastFar=null,lastCamera=0,lastError='',enabled=true,drawTicks=0;")
+source=source.replace('   // Never modify the reflection camera or its clipping planes.',
+ '   if((drawTicks++&7)!==0)return;\n   // Never modify the reflection camera or its clipping planes.')
+source=source.replace('far>=100&&far<600){f[0]=600;', 'far>=100&&far<650){f[0]=650;')
+source=source.replace('writes++;lastFar=600;', 'writes++;lastFar=650;')
+source=source.replace('floor:600,reflectionProtected:true','floor:650,reflectionProtected:true')
 # A failure after installing the first hooks must not reinstall them every 100ms.
 init_anchor=" if(!engineRunning(ptr(0),ptr(0)))return false;"
 assert source.count(init_anchor)==1
@@ -128,6 +138,14 @@ source = source.replace(anchor, anchor + '\n const wristDisplay=applyRecoveryPlu
 source = source.replace(anchor, anchor + '\n const messageProjection=createRecoveryPlusMessageProjection(rec),tutorialPanel=createRecoveryPlusTutorialPanel(main,rec,read,mem,'+(ROOT/'build/recoveryplus-tutorial-layout.json').read_text()+');\n main.base.add(0xde4f08).writeFloat(1.25);')
 source = source.replace(anchor, anchor + '\n const chemistryOverlay=createRecoveryPlusChemistryOverlay(main,rec,mem);')
 source = source.replace(anchor, anchor + '\n const streamingGuard=createRecoveryPlusStreamingGuard(rec);')
+source = source.replace(anchor, anchor + '\n const menuSettle=createRecoveryPlusMenuSettle();')
+source = source.replace(anchor, anchor + '\n const imguiTextures=createRecoveryPlusImguiTextures(main);')
+source = source.replace(anchor, anchor + '\n const controlsCard=createRecoveryPlusControlsCard(rec);')
+cheat_tick='   if(cheats&&control.cheatSync!==false)cheats.tick(ready);'
+assert source.count(cheat_tick)==1
+source=source.replace(cheat_tick,'''   const cheatBusy=!ready||cinema||!!rec.base.add(0x12c094).readU8()||!!rec.base.add(0x12c0e8).readU8()||!!rec.base.add(0x12bc2c).readU8()||!!rec.base.add(0x12bc3c).readU8()||!!rec.base.add(0x12c070).readU8()||rec.base.add(0x12b754).readS32()!==-1;
+   const cheatsSafe=menuSettle.allow(cheatBusy,Date.now());
+   if(cheats&&control.cheatSync!==false&&cheatsSafe)cheats.tick(ready);''')
 english_anchor=' const setPanel=createPanelControl(main),draw=createDrawDistanceFloor(main,rec);'
 assert source.count(english_anchor)==1
 source=source.replace(english_anchor,' applyRecoveryPlusEnglishDefault(rec,root);\n'+english_anchor)
@@ -156,6 +174,8 @@ source = source.replace('const state={build,review:', 'const state={build,wristD
 source = source.replace('const state={build,wristDisplay,review:', 'const state={build,wristDisplay,messageProjection:messageProjection.report(),tutorialPanel:tutorialPanel.report(),review:')
 source = source.replace('const state={build,wristDisplay,', 'const state={build,chemistryOverlay:chemistryOverlay.report(),wristDisplay,')
 source = source.replace('const state={build,chemistryOverlay:', 'const state={build,streamingGuard:streamingGuard.report(),chemistryOverlay:')
+source = source.replace('const state={build,streamingGuard:', 'const state={build,imguiTextures:imguiTextures.report(),streamingGuard:')
+source = source.replace('const state={build,imguiTextures:', 'const state={build,controlsCard:controlsCard.report(),imguiTextures:')
 patch = (ROOT / 'src/recoveryplus/review.js').read_text(encoding='utf8') + '\n' + (ROOT / 'src/recoveryplus/sky-routing.js').read_text(encoding='utf8')
 patch += '\n' + (ROOT / 'src/recoveryplus/transitions.js').read_text(encoding='utf8')
 patch += '\n' + (ROOT / 'src/recoveryplus/shader-reload.js').read_text(encoding='utf8')
@@ -168,6 +188,10 @@ patch += '\n' + (ROOT / 'src/recoveryplus/message-projection.js').read_text(enco
 patch += '\n' + (ROOT / 'src/recoveryplus/chemistry-overlay.js').read_text(encoding='utf8')
 patch += '\n' + (ROOT / 'src/recoveryplus/english-default.js').read_text(encoding='utf8')
 patch += '\n' + (ROOT / 'src/recoveryplus/streaming-guard.js').read_text(encoding='utf8')
+patch += '\n' + (ROOT / 'src/recoveryplus/help-distance.js').read_text(encoding='utf8')
+patch += '\n' + (ROOT / 'src/recoveryplus/menu-settle.js').read_text(encoding='utf8')
+patch += '\n' + (ROOT / 'src/recoveryplus/imgui-textures.js').read_text(encoding='utf8')
+patch += '\n' + (ROOT / 'src/recoveryplus/controls-card.js').read_text(encoding='utf8')
 patch += '''
 function removeCandidateShirtOverrides(){
  const unlink=new NativeFunction(Module.getGlobalExportByName('unlink'),'int',['pointer']);

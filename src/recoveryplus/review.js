@@ -19,7 +19,7 @@ function createRecoveryPlusReview(main,rec,read,mem){
   for(const id of [20,21,31,32])clear(ptr(0),ptr(0),0,id);
   overrides=false;lastOverride='';
  }
- function gameplay(){return !!rec.base.add(0x12bf98).readU8()&&!rec.base.add(0x12bf9c).readU8()&&!rec.base.add(0x12c094).readU8()&&!rec.base.add(0x12c070).readU8()&&rec.base.add(0x12b754).readS32()===-1;}
+ function gameplay(){return !!rec.base.add(0x12bf98).readU8()&&!rec.base.add(0x12bf9c).readU8()&&!rec.base.add(0x12c094).readU8()&&!rec.base.add(0x12c0e8).readU8()&&!rec.base.add(0x12c070).readU8()&&rec.base.add(0x12b754).readS32()===-1;}
  function fistState(){
   const player=read(mem,0x80624204);if(!valid(player,0x16bc))return null;
   const held=read(mem,player+0x1ec),inventory=read(mem,player+0x300);
@@ -64,7 +64,10 @@ function createRecoveryPlusReview(main,rec,read,mem){
    set(ptr(0),ptr(0),0,21,0);overrides=true;lastOverride=signature;
   }
   const item=rec.base.add(0x12b710).readS32(),index=rec.base.add(0x12c090).readS32();
-  const ranged=item!==-1&&item!==437&&index>=0&&index<92&&!rec.base.add(0x321bc+index).readU8();
+  // The selected row can precede the native equip acknowledgement. Classify
+  // the actual held item, never a stale menu row belonging to another weapon.
+  const actualIndex=index>=0&&index<92&&nativeIds[index]===item?index:nativeIds.indexOf(item);
+  const ranged=item!==-1&&item!==437&&actualIndex>=0&&!rec.base.add(0x321bc+actualIndex).readU8();
   if(ranged||(armedIntent&&item===-1)){
    p.add(0x212).writeU8(0);p.add(0x213).writeU8(0);
    p.add(0x1f8).writeU8(0);p.add(0x1f9).writeU8(0);

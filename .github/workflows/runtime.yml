@@ -1,0 +1,30 @@
+name: Runtime source checks
+on: [push, pull_request]
+jobs:
+  regression:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-dev.txt
+      - name: Pure runtime regressions (no recovered APK required)
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          foreach ($name in @('commands','transitions','fists','initialization','help_distance','input_transitions','menu_settle','tutorial_slot')) {
+            if ($name -eq 'initialization') { continue } # Needs a composed private-base runtime.
+            node "tools/check_recoveryplus_$name.js"
+            if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          }
+      - name: PPC mission completion calling convention
+        shell: pwsh
+        run: |
+          New-Item -ItemType Directory -Force build | Out-Null
+          python tools/build_recoveryplus_mission_skip.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python tools/check_recoveryplus_mission_skip.py

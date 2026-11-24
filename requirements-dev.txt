@@ -2,3 +2,4 @@ Pillow
 keystone-engine
 unicorn
 pyelftools
+frida

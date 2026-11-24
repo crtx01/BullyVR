@@ -16,8 +16,8 @@ python tools/prepare_recoveryplus_source.py C:/path/to/RecoveryPlus-original.apk
 python tools/recoveryplus_prompt_pack.py
 python tools/build_recoveryplus_mission_skip.py
 python tools/build_recoveryplus_tutorial_layout.py
-$env:BULLY_REVIEW_REVISION='r34'
-$env:BULLY_REVIEW_DATE='2026-11-16'
+$env:BULLY_REVIEW_REVISION='r40'
+$env:BULLY_REVIEW_DATE='2026-11-24'
 python tools/recoveryplus_stage_review.py
 node --check build/recoveryplus-review-runtime.js
 node tools/check_recoveryplus_commands.js
@@ -25,12 +25,17 @@ node tools/check_recoveryplus_transitions.js
 node tools/check_recoveryplus_travel.js
 node tools/check_recoveryplus_initialization.js
 node tools/check_recoveryplus_fists.js
+node tools/check_recoveryplus_help_distance.js
+node tools/check_recoveryplus_input_transitions.js
+node tools/check_recoveryplus_menu_settle.js
+node tools/check_recoveryplus_tutorial_slot.js
+node tools/check_recoveryplus_draw_distance.js
 python tools/check_recoveryplus_mission_skip.py
 python tools/check_recoveryplus_streaming_guard.py
 python tools/build_recoveryplus_review.py --recoveryplus
 ```
 
-Output: `Builds/RecoveryPlus-2026-11-16/BullyVR-RecoveryPlus-r34.apk`.
+Output: `Builds/RecoveryPlus-2026-11-24/BullyVR-RecoveryPlus-r40.apk`.
 Packaging checks signature, ZIP CRC, DEX checksums and 16-KB library alignment.
 Signing with your own key changes the APK hash and may prevent an in-place update
 over an APK signed by someone else. Back up your saves before changing signatures.
@@ -48,3 +53,9 @@ reproduce the Recovery+ r22 native binary. Art/model/font assets are not include
 
 The local checks cannot reproduce Android graphics-driver execution, head tracking,
 native texture-cache corruption or the reported teleport crash without a device.
+
+For the optional ADB test helpers, set `ANDROID_SERIAL` to your own Quest's
+identifier from `adb devices`. They also require a Frida server you supply on
+the device and explicit setup of the local port forward. State-load/save helpers
+additionally require the locally built Android state agent; no device agents,
+personal checkpoints or test saves are distributed in this source archive.

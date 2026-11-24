@@ -1,0 +1,10 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+let value=.8,open=false;
+const c=vm.createContext({});vm.runInContext(fs.readFileSync('src/recoveryplus/help-distance.js','utf8'),c);
+const api=c.createRecoveryPlusHelpDistance({base:{add(){return {readFloat:()=>value,writeFloat:v=>value=v};}}},{base:{add(){return {readU8:()=>open};}}});
+api.tick();assert.equal(value,.8);open=true;api.tick();assert.equal(value,2.5);
+api.tick();open=false;api.tick();assert.equal(value,.8);
+value=4;open=true;api.tick();assert.equal(value,4);open=false;api.tick();assert.equal(value,4);
+value=.8;open=true;api.tick();value=3;open=false;api.tick();assert.equal(value,3,'preserve concurrent user changes');
+value=NaN;open=true;api.tick();assert.equal(api.report().active,false);
+console.log('Passed: controls distance minimum2.5, close restoration, farther user value, concurrent changes, invalid values');

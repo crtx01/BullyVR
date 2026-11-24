@@ -1,10 +1,13 @@
 # Bully VR — experimental Quest adaptation
 
 Created by **crtx01**, a Brazilian developer. This source snapshot documents the
-Recovery+ r34 test candidate and the available earlier native implementation.
+Recovery+ r40 test candidate and the available earlier native implementation.
 It is an independent fan project, not an official Rockstar or Meta release.
 
-**Download:** [r34 / 0.0.1-hf2 test candidate](https://github.com/crtx01/BullyVR/releases/tag/v0.0.1-hf2).
+**Published APK:** [r34 / 0.0.1-hf2 test candidate](https://github.com/crtx01/BullyVR/releases/tag/v0.0.1-hf2).
+The source on this branch is newer (**r40**, November 24). It fixes a reproduced
+VR-menu font-texture assertion. Updating the source does not silently replace
+the older release APK. See [STABILITY.md](STABILITY.md) for measured coverage.
 Sideload the APK and open **BullyVR Recovery+** under Unknown Sources. Supply your
 own US Wii copy of Bully: Scholarship Edition (**RB7E54**) in a **Bully VR** folder,
 then select that folder through Dolphin's Add Games/Add folder picker.
@@ -38,8 +41,8 @@ save, signing key, credentials or device backup is included.
 Projeto experimental criado por **crtx01 (Brasil)**. Este pacote disponibiliza o
 código existente, testes e processo de montagem. A build Recovery+ depende de
 bibliotecas recuperadas de um APK anterior; não afirmamos que todo o APK possa
-ser recompilado do zero apenas com este repositório. O hotfix r34 foi testado
-localmente, mas ainda precisa de validação no Quest. Cada jogador fornece sua
+ser recompilado do zero apenas com este repositório. A revisão atual inclui uma correção
+para a falha de textura de fonte reproduzida no menu VR do Quest. Cada jogador fornece sua
 própria cópia do jogo.
 
 Feedback: open a GitHub issue with the build, Quest model, action and crash log,
